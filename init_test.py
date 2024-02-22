@@ -1,4 +1,5 @@
 from transformers import pipeline
+from transformers import AutoTokenizer, AutoModelForTokenClassification, AutoModelForSequenceClassification
 
 classifier = pipeline("sentiment-analysis")
 
@@ -17,9 +18,6 @@ print(sum_res)
 
 
 ## Test danish models
-from transformers import pipeline
-from transformers import AutoTokenizer, AutoModelForTokenClassification
-
 tokenizer_id = AutoTokenizer.from_pretrained("Maltehb/-l-ctra-danish-electra-small-cased-ner-dane")
 model_id = AutoModelForTokenClassification.from_pretrained("Maltehb/-l-ctra-danish-electra-small-cased-ner-dane")
 
@@ -36,8 +34,6 @@ for each in [dk1, dk2, dk3, dk4]:
 
 
 ## Test danish models
-from transformers import pipeline
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 tokenizer_id = AutoTokenizer.from_pretrained("danish-sentiment-analysis-model")
 model_id = AutoModelForSequenceClassification.from_pretrained("danish-sentiment-analysis-model")
