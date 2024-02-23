@@ -18,6 +18,7 @@ print(sum_res)
 
 
 ## Test danish models
+
 tokenizer_id = AutoTokenizer.from_pretrained("Maltehb/-l-ctra-danish-electra-small-cased-ner-dane")
 model_id = AutoModelForTokenClassification.from_pretrained("Maltehb/-l-ctra-danish-electra-small-cased-ner-dane")
 
