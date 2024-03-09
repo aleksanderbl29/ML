@@ -25,7 +25,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pylint
-        pip install -r requirements.txt
+        pip install -r py-lint-requirements.txt
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py') --disable=line-too-long,missing-module-docstring
@@ -45,7 +45,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pylint
-        pip install -r requirements.txt
+        pip install -r py-lint-requirements.txt
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py') --disable=line-too-long,missing-module-docstring
@@ -65,7 +65,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pylint
-        pip install -r requirements.txt
+        pip install -r py-lint-requirements.txt
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py') --disable=line-too-long,missing-module-docstring
