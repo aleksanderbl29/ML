@@ -4,4 +4,4 @@ datasets ==2.18.0
 
 ## apple silicon machine learning
 mlx-lm ==0.3.0
-mlx ==0.7.0
+mlx ==0.8.0
