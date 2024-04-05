@@ -4,7 +4,6 @@
     "config:recommended"
   ],
   "schedule": [
-    "every weekend",
-    "on the first day of the month"
+    "every weekend"
   ]
 }
