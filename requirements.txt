@@ -1,6 +1,6 @@
 torch ==2.3.0
 transformers ==4.41.1
-datasets ==2.19.1
+datasets ==2.19.2
 
 ## apple silicon machine learning
 mlx-lm ==0.14.3
