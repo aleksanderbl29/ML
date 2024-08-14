@@ -4,7 +4,7 @@ services:
 
   # ollama and API
   ollama:
-    image: ollama/ollama:0.3.4
+    image: ollama/ollama:0.3.6
     container_name: ollama
     pull_policy: missing
     tty: true
