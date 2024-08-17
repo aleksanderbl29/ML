@@ -3,5 +3,5 @@ transformers ==4.44.0
 datasets ==2.20.0
 
 ## apple silicon machine learning
-mlx-lm ==0.16.1
+mlx-lm ==0.17.0
 mlx ==0.16.2
